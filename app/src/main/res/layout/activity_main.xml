@@ -11,15 +11,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:paddingHorizontal="10dp"
         android:paddingVertical="10dp"
+        android:textSize="16sp"
         android:text="Welcome to the Fetch AWS list fetching application"
         android:textStyle="bold" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"/>
 
 </RelativeLayout>
